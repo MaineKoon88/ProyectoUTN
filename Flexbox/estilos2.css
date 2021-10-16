@@ -1,0 +1,30 @@
+.container {
+
+  width: 600px;
+	height: 600px;
+	display: flex;
+  flex-direction: row-reverse;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  margin: 0 auto;
+  align-items: center;
+
+
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 0;
+
+
+
+
+
+}
+
+p {
+  text-align: center;
+  color: white;
+}
