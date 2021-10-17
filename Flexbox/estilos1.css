@@ -17,6 +17,10 @@
   width: 200px;
   height: 200px;
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 
 
 
