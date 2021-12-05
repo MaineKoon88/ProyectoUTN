@@ -5,6 +5,23 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+.text-justify {
+text-align: center;
+background-color: white;
+font-family: 'Bebas Neue', cursive;
+font-size: 20px;
+
+
+
+}
+
+.titulo {
+  text-align: center;
+  font-family: 'Corinthia', cursive;
+  font-size: 100px;
+  color: #FF8C00;
+
+}
 
 
 /* Style the header with a grey background and some padding */
