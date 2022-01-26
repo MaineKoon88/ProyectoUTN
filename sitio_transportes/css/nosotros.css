@@ -5,7 +5,7 @@
 
 .main{
   width: 100%;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url("noche.jpg");
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url("nosotros.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -127,7 +127,6 @@
   outline: none;
 }
 
-
 .content{
   width: 1200px;
   height: auto;
@@ -153,49 +152,82 @@
   letter-spacing: 2px;
 }
 
-.content .cn{
-  width:160px;
-  height: 40px;
-  background: #ff7200;
-  border: none;
-  margin-bottom: 10px;
-  margin-left: 20px;
-  font-size: 18px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: .4s ease;
+.perfil1 {
+display: flex;
+align-items: center;
 
 }
 
-.content .cn a{
-  text-decoration: none;
-  color: Black;
-  transition: .3s ease;
-}
-
-.cn:hover{
-  background-color: white;
-}
-
-.presentacion {
-  width: 1200px;
-  height: auto;
-  margin: auto;
-  color: white;
-}
-
-.presentacion h1{
+.ttl{
   font-family: 'Oswald', sans-serif;
   font-size: 50px;
   padding-left: 20px;
   letter-spacing: 2px;
-}
-
-.presentacion .frase {
-  padding-left: 20px;
-  padding-bottom: 25px;
-  font-family: 'Roboto Condensed', sans-serif;
-  letter-spacing: 1.2px;
-  line-height: 30px;
+  color: white;
 
 }
+
+.p1{
+
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  float: left;
+
+
+}
+
+.p1:hover{
+
+
+}
+
+.par{
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+  padding-left: 200px;
+  letter-spacing: 2px;
+  color: white;
+  text-align: justify;
+  float: left;
+  vertical-align: baseline;
+
+
+
+}
+
+.ttl2{
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  padding-left: 1100px;
+  letter-spacing: 2px;
+  color: white;
+
+}
+.perfil2 {
+display: flex;
+align-items: flex-end;
+ }
+
+.p2{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  float: left;
+}
+
+.par2{
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+  padding-right: 10px;
+  letter-spacing: 2px;
+  color: white;
+  text-align: justify;
+  float: left;
+  vertical-align: baseline;
