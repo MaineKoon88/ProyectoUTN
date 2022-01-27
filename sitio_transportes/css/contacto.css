@@ -5,7 +5,7 @@
 
 .main{
   width: 100%;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url("nosotros.jpg");
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url("contacto.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -127,107 +127,25 @@
   outline: none;
 }
 
-.content{
-  width: 1200px;
-  height: auto;
+.title {
+  font-family: 'Oswald', sans-serif;
+  padding-top: 100px;
+  text-align: center;
+  font-size: 36px;
+  color: white;
+}
+
+.container .form{
+
+  background: rgba(0, 0, 0,.6);
+  width: 90%;
+  max-width: 650px;
   margin: auto;
-  color: white;
-
-
-}
-
-.content .par{
-  padding-left: 20px;
-  padding-bottom: 25px;
-  font-family: 'Roboto Condensed', sans-serif;
-  letter-spacing: 1.2px;
-  line-height: 30px;
-
-}
-
-.content h1{
-  font-family: 'Oswald', sans-serif;
-  font-size: 50px;
-  padding-left: 20px;
-  letter-spacing: 2px;
-}
-
-.perfil1 {
-display: flex;
-align-items: center;
-
-}
-
-.ttl{
-  font-family: 'Oswald', sans-serif;
-  font-size: 50px;
-  padding-left: 20px;
-  letter-spacing: 2px;
-  color: white;
-
-}
-
-.p1{
-
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border-style: solid;
-  border-width: 5px;
-  border-color: white;
-  float: left;
-
-
-}
-
-.p1:hover{
-
-
-}
-
-.par{
-  font-family: 'Oswald', sans-serif;
-  font-size: 28px;
-  padding-left: 200px;
-  letter-spacing: 2px;
-  color: white;
-  text-align: justify;
-  float: left;
-  vertical-align: baseline;
+  padding: 5px 35px;
 
 
 
 }
 
-.ttl2{
-  font-family: 'Oswald', sans-serif;
-  font-size: 50px;
 
-  letter-spacing: 2px;
-  color: white;
-
-}
-.perfil2 {
-display: flex;
-align-items: flex-end;
- }
-
-.p2{
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border-style: solid;
-  border-width: 5px;
-  border-color: white;
-  float: left;
-}
-
-.par2{
-  font-family: 'Oswald', sans-serif;
-  font-size: 28px;
-  padding-left: 220px;
-  letter-spacing: 2px;
-  color: white;
-  text-align: justify;
-  float: right;
-  vertical-align: baseline;
+/*https://www.youtube.com/watch?v=aEBImP0k8iA&ab_channel=CodigoMasters*/

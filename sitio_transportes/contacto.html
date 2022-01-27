@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/galeria.css">
+    <link rel="stylesheet" href="css/contacto.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
@@ -33,47 +33,31 @@
       <a href="#"><button class="btn">Buscar</button></a>
 
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+<div class="container">
+  <form class="form" action="" method="post">
+    <div class="form-header">
+      <br>
+      <h1 class="title">Contacto</h1>
 
+    </div>
+    <label for="nombre" class="label">Nombre:</label>
+    <input type="text" id="nombre" class="input" placeholder="Escriba su nombre">
+    <label for="apellido" class="label">Apellido:</label>
+    <input type="text" id="apellido" class="input" placeholder="Escriba su apellido">
+    <label for="mail" class="label">Mail:</label>
+    <input type="email" id="mail" class="input" placeholder="Escriba su dirección de mail">
+    <label for="mensaje" class="label">Mensaje:</label>
+    <textarea id="mensaje" class="form-textarea" placeholder="Escriba su mensaje"></textarea>
+    <input type="submit" class="btn-submit"  value="Enviar">
+  </form>
+</div>
 
 
   </div>
-  <div class="transform">
-
-  <ul class="main-nav">
-  <li class="item1">
-    <div class="bg"></div>
-  </li>
-  <li class="item2">
-    <div class="bg"></div>
-  </li>
-  <li class="item3">
-    <div class="bg"></div>
-  </li>
-  <li class="item4">
-    <div class="bg"></div>
-  </li>
-  <li class="item5">
-    <div class="bg"></div>
-  </li>
-  <li class="item6">
-    <div class="bg"></div>
-  </li>
-  <li class="item7">
-    <div class="bg"></div>
-  </li>
-  <li class="item8">
-    <div class="bg"></div>
-  </li>
-</ul>
 </div>
-
-<script type="text/javascript">
-
-$("#item1").click(function() {
-  $('.transform').toggleClass('transform-active');
-});
-</script>
-</div>
-
   </body>
 </html>
