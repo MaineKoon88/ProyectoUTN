@@ -129,10 +129,11 @@
 
 .title {
   font-family: 'Oswald', sans-serif;
-  padding-top: 100px;
+  padding-top: 40px;
   text-align: center;
   font-size: 36px;
   color: white;
+
 }
 
 .container .form{
@@ -141,11 +142,63 @@
   width: 90%;
   max-width: 650px;
   margin: auto;
-  padding: 5px 35px;
+  padding: 5px 30px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 4px;
 
 
 
 }
 
+.container .form .label{
+  display: block;
+  font-family: 'Oswald', sans-serif;
+  color: #ff7200;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
 
+}
+
+.container .form .input, .form-textarea{
+  background: rgba(0,0,0,.7);
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #ff7200;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.container .form .form-textarea{
+  resize: vertical;
+  max-height:150px;
+  min-height: 50px;
+}
+
+.container .form .btn-submit{
+  width: 100%;
+  font-family: 'Oswald', sans-serif;
+  outline: none;
+  background: #ff7200;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  padding: 15px 0;
+  cursor: pointer;
+  transition: 1s ease;
+
+
+}
+
+.container .form .btn-submit:hover{
+  background-color: white;
+
+}
 /*https://www.youtube.com/watch?v=aEBImP0k8iA&ab_channel=CodigoMasters*/
