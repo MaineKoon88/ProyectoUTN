@@ -1,0 +1,44 @@
+body{
+
+  background-color: green;
+}
+
+.container{
+  display: flex;
+
+
+ }
+.buttons{
+  justify-content: center;
+
+}
+
+#color1{
+
+  width: 150px;
+  height: 100px;
+  background: #7FFFD4;
+  font-size: 20px;
+  font-weight: bold;
+
+
+
+}
+
+#color2{
+
+  width: 150px;
+  height: 100px;
+  background: #FF7F50;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+#color3{
+
+  width: 150px;
+  height: 100px;
+  background: #2F4F4F;
+  font-size: 20px;
+  font-weight: bold;
+}
