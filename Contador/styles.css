@@ -1,0 +1,20 @@
+* {
+	    font-family: sans-serif;
+
+	}
+  body{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+  textarea {
+	    padding: 8px;
+	    border: 1px solid #ddd;
+	    width: 400px;
+	    min-height: 100px;
+	}
+	label{
+		display: block;
+		font-weight: bold;
+	}
