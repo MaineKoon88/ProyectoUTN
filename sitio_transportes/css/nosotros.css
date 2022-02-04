@@ -10,7 +10,7 @@
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  height: 109vh;
+  height: 300vh;
 
 
 }
@@ -117,6 +117,7 @@
   border-bottom-right-radius: 5px;
   border-bottom-right-radius: 5px;
   font-weight: bold;
+  cursor: pointer;
   }
 
 .btn:focus{
@@ -202,7 +203,7 @@ align-items: center;
 .ttl2{
   font-family: 'Oswald', sans-serif;
   font-size: 50px;
-
+  padding-left: 20px;
   letter-spacing: 2px;
   color: white;
 
@@ -213,7 +214,7 @@ align-items: flex-end;
  }
 
 .p2{
-  width: 150px;
+  width: 170px;
   height: 150px;
   border-radius: 50%;
   border-style: solid;
@@ -225,7 +226,7 @@ align-items: flex-end;
 .par2{
   font-family: 'Oswald', sans-serif;
   font-size: 28px;
-  padding-left: 220px;
+  padding-left: 200px;
   letter-spacing: 2px;
   color: white;
   text-align: justify;

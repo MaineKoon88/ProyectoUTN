@@ -117,6 +117,7 @@
   border-bottom-right-radius: 5px;
   border-bottom-right-radius: 5px;
   font-weight: bold;
+  cursor: pointer;
   }
 
 .btn:focus{

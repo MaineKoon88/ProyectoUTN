@@ -101,6 +101,7 @@
   border-bottom-right-radius: 5px;
   border-bottom-right-radius: 5px;
   font-weight: bold;
+  cursor: pointer;
   }
 
 .btn:focus{
@@ -189,6 +190,7 @@
   width: 100%;
   height: 100%;
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 .main-nav li.item1 .bg {
