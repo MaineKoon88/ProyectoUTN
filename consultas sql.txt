@@ -1,1 +1,3 @@
 https://codigosql.top/mysql/consultas/
+
+mysql> LOAD DATA INFILE '/var/lib/mysql-files/pet.txt' INTO TABLE pet;
