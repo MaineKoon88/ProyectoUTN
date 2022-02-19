@@ -1,0 +1,211 @@
+1)
+
+
+===Base de datos ejercicio
+
+== Estructura de tabla para la tabla empleados
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**id_emp**//|int(255)|No|
+|nombre|varchar(11)|No|
+|apellido|varchar(11)|No|
+|trabajo|varchar(11)|No|
+|edad|varchar(11)|No|
+|salario|varchar(11)|No|
+|mail|varchar(11)|No|
+== Volcado de datos para la tabla empleados
+
+|Juan|Programador
+|Gonzalo|Programador
+|Ana|Desarrollad
+|Maria|Desarrollad
+|Alfredo|Programador
+|Juan|Programador
+|Eduardo|Programador
+|Alejandro|Programador
+|Hernan|Especialist
+|Paublo|Especialist
+|Arturo|Especialist
+|Jimena|Dise?ador W
+|Roberto|Administrad
+|Daniel|Administrad
+|Miguel|Ejecutivo d
+|Monica|Ejecutivo d
+|Alicia|Ejecutivo d
+|Jose|Ejecutivo d
+|Sabrina|Gerente de 
+|Pedro|Gerente de 
+|Mariano|Presidente
+
+
+2)
+
+
+|Juan|32
+|Gonzalo|32
+|Ana|27
+|Maria|26
+|Alfredo|31
+|Juan|34
+|Eduardo|25
+|Alejandro|32
+|Hernan|33
+|Paublo|43
+|Arturo|32
+|Jimena|32
+|Roberto|35
+|Daniel|34
+|Miguel|36
+|Monica|30
+|Alicia|27
+|Jose|27
+|Sabrina|32
+|Pedro|36
+|Mariano|28
+
+
+3)
+
+|Juan|32|Programador
+|Gonzalo|32|Programador
+|Alfredo|31|Programador
+|Juan|34|Programador
+|Eduardo|25|Programador
+|Alejandro|32|Programador
+
+
+4)
+
+|Juan|32
+|Gonzalo|32
+|Alfredo|31
+|Juan|34
+|Alejandro|32
+|Hernan|33
+|Paublo|43
+|Arturo|32
+|Jimena|32
+|Roberto|35
+|Daniel|34
+|Miguel|36
+|Sabrina|32
+|Pedro|36
+
+
+5)
+
+
+|Hagan|juan_hagan@
+|Aguero|juan@bignet
+
+
+6)
+
+|Juan
+|Gonzalo
+|Alfredo
+|Juan
+|Eduardo
+|Alejandro
+
+
+7)
+
+|15|Miguel|Harper|Ejecutivo d
+|16|Monica|Sanchez|Ejecutivo d
+|17|Alicia|Simlai|Ejecutivo d
+|18|Jose|Iriarte|Ejecutivo d
+|19|Sabrina|Allende|Gerente de 
+|20|Pedro|Campion|Gerente de 
+
+
+8)
+
+|Alfredo|Fernandez
+|Juan|Aguero
+|Eduardo|Sacan
+|Alejandro|Nanda
+
+
+9)
+
+|Alfredo|Fernandez
+|Juan|Aguero
+|Eduardo|Sacan
+
+
+10)
+
+|Eduardo|Sacan
+|Paublo|Simon
+|Monica|Sanchez
+|Alicia|Simlai
+
+
+11)
+
+|Daniel|Gutierrez
+|Miguel|Harper
+
+12)
+
+
+|1|Juan|Hagan|Programador|32|120000|juan_hagan@
+|2|Gonzalo|Pillai|Programador|32|110000|g_pillai@bi
+|3|Ana|Dharma|Desarrollad|27|90000|ana@bignet.
+|4|Maria|Anchor|Desarrollad|26|85000|mary@bignet
+|5|Alfredo|Fernandez|Programador|31|75000|af@bignet.c
+|6|Juan|Aguero|Programador|34|80000|juan@bignet
+|7|Eduardo|Sacan|Programador|25|75000|eddie@bigne
+|8|Alejandro|Nanda|Programador|32|70000|alenanda@bi
+|9|Hernan|Rosso|Especialist|33|90000|hernan@bign
+|10|Paublo|Simon|Especialist|43|85000|ps@bignet.c
+|11|Arturo|Hernandez|Especialist|32|75000|arturo@bign
+|12|Jimena|Cazado|Dise?ador W|32|110000|jimena@bign
+|13|Roberto|Luis|Administrad|35|100000|roberto@big
+|14|Daniel|Gutierrez|Administrad|34|900000|daniel@bign
+|15|Miguel|Harper|Ejecutivo d|36|120000|miguel@bign
+|16|Monica|Sanchez|Ejecutivo d|30|90000|monica@bign
+|17|Alicia|Simlai|Ejecutivo d|27|70000|alicia@bign
+|18|Jose|Iriarte|Ejecutivo d|27|72000|jose@bignet
+|19|Sabrina|Allende|Gerente de |32|200000|sabrina@big
+|20|Pedro|Campion|Gerente de |36|220000|pedro@bigne
+|21|Mariano|Dharma|Presidente|28|300000|mariano@big
+|22|Francisco|Perez|Programador|26|90000|francisco@bignet.com
+
+
+13)
+
+
+|1|Juan|Hagan|Programador|32|120000|juan_hagan@
+|2|Gonzalo|Pillai|Programador|32|110000|g_pillai@bi
+|3|Ana|Dharma|Desarrollad|27|90000|ana@bignet.
+|4|Maria|Anchor|Desarrollad|26|85000|mary@bignet
+|5|Alfredo|Fernandez|Programador|31|75000|af@bignet.c
+|6|Juan|Aguero|Programador|34|80000|juan@bignet
+|7|Eduardo|Sacan|Programador|25|75000|eddie@bigne
+|8|Alejandro|Nanda|Programador|32|70000|alenanda@bi
+|10|Paublo|Simon|Especialist|43|85000|ps@bignet.c
+|11|Arturo|Hernandez|Especialist|32|75000|arturo@bign
+|12|Jimena|Cazado|Dise?ador W|32|110000|jimena@bign
+|13|Roberto|Luis|Administrad|35|100000|roberto@big
+|14|Daniel|Gutierrez|Administrad|34|900000|daniel@bign
+|15|Miguel|Harper|Ejecutivo d|36|120000|miguel@bign
+|16|Monica|Sanchez|Ejecutivo d|30|90000|monica@bign
+|17|Alicia|Simlai|Ejecutivo d|27|70000|alicia@bign
+|18|Jose|Iriarte|Ejecutivo d|27|72000|jose@bignet
+|19|Sabrina|Allende|Gerente de |32|200000|sabrina@big
+|20|Pedro|Campion|Gerente de |36|220000|pedro@bigne
+|21|Mariano|Dharma|Presidente|28|300000|mariano@big
+|22|Francisco|Perez|Programador|26|90000|francisco@bignet.com
+
+
+14)
+
+|14|Daniel|Gutierrez|Administrad|34|90000|daniel@bign
+
+
+
+
