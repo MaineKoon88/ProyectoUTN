@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main{
+  width: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url("contacto.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 150vh;
+
+
+}
+ .navbar{
+   width: 1200px;
+   height: 75px;
+   margin: auto;
+ }
+
+ .icon{
+   width: 200px;
+   float: left;
+   height: 70px;
+ }
+
+ .logo{
+   color: #ff7200;
+   font-size: 35px;
+   font-family: 'Roboto Condensed', sans-serif;
+   padding-left: 20px;
+   float: left;
+   padding-top: 10px;
+ }
+
+ .menu{
+   width: 400px;
+   float:left;
+   height: 70px;
+ }
+
+ ul{
+   float: left;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ ul li{
+   list-style: none;
+   margin-left: 62px;
+   margin-top: 27px;
+   font-size: 14px;
+
+ }
+
+ ul li a{
+   text-decoration: none;
+   color: white;
+   font-family: 'Roboto Condensed', sans-serif;
+   transition: 0.4s ease-in-out;
+ }
+
+ ul li a:hover{
+   color: #ff7200;
+ }
+
+ .search{
+   width: 330px;
+   float: left;
+   margin-left: 270px;
+ }
+
+.srch{
+  font-family:'Arial';
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid #ff7200;
+  margin-top: 13px;
+  color: white;
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.cn{
+  width: 100px;
+  height: 40px;
+  background: #ff7200;
+  border: 2px solid #ff7200;
+  margin-top: 13px;
+  color: white;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-weight: bold;
+  }
+
+.cn:focus{
+  outline: none;
+}
+
+.btn{
+  width: 100px;
+  height: 40px;
+  background: #ff7200;
+  border: 2px solid #ff7200;
+  margin-top: 13px;
+  color: white;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  }
+
+.btn:focus{
+  outline: none;
+}
+
+.srch:focus{
+  outline: none;
+}
+
+.title {
+  font-family: 'Oswald', sans-serif;
+  padding-top: 40px;
+  text-align: center;
+  font-size: 36px;
+  color: white;
+
+}
+
+.container .form{
+
+  background: rgba(0, 0, 0,.6);
+  width: 90%;
+  max-width: 650px;
+  margin: auto;
+  padding: 5px 30px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 4px;
+
+
+
+}
+
+.container .form .label{
+  display: block;
+  font-family: 'Oswald', sans-serif;
+  color: #ff7200;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+
+}
+
+.container .form .input, .form-textarea{
+  background: rgba(0,0,0,.7);
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #ff7200;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.container .form .form-textarea{
+  resize: vertical;
+  max-height:150px;
+  min-height: 50px;
+}
+
+.container .form .btn-submit{
+  width: 100%;
+  font-family: 'Oswald', sans-serif;
+  outline: none;
+  background: #ff7200;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  padding: 15px 0;
+  cursor: pointer;
+  transition: 1s ease-in-out;
+
+
+}
+
+.container .form .btn-submit:hover{
+  background-color:#00FFFF;
+
+}
+/*https://www.youtube.com/watch?v=aEBImP0k8iA&ab_channel=CodigoMasters*/
