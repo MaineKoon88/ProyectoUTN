@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url("fondo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 109vh;
+
+
+}
+
+.holder h1 {
+  color: #ff7200;
+  font-size: 35px;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-left: 20px;
+  float: center;
+  padding-top: 10px;
+  text-align: center;
+}
